@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/theme/css/normalize.css" />
+        <link rel="stylesheet" href="/theme/css/skeleton.css" />
+        <link rel="stylesheet" href="/theme/css/statocles-default.css" />
+        <title>SPb.pm</title>
+        <link rel="alternate" href="/blog/tag/Starlet.atom" type="application/atom+xml" />
+        <link rel="alternate" href="/blog/tag/Starlet.rss" type="application/rss+xml" />
+        
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <div class="container">
+                    <a class="brand" href="/">SPb.pm</a>
+                    <ul>
+                        <li>
+                            <a href="/">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            
+        </header>
+        <div class="main container">
+            
+<div class="row">
+
+    <div class="nine columns">
+        <main>
+
+            <article>
+                <header>
+                    <h1><a href="/blog/2015/05/15/which-should-i-use-starman-and-starlet-">Что мне следует использовать: Starman или Starlet?</a></h1>
+
+                    <p class="tags">Tags:
+                        <a href="/blog/tag/перевод" rel="tag">перевод</a>
+                        <a href="/blog/tag/Starman" rel="tag">Starman</a>
+                        <a href="/blog/tag/Starlet" rel="tag">Starlet</a>
+                        <a href="/blog/tag/Plack" rel="tag">Plack</a>
+                    </p>
+
+                    <aside>
+                        <p><time datetime="2015-05-15">
+                            Posted on 2015-05-15
+                        </time>
+                        </p>
+                    </aside>
+
+                </header>
+
+                <p><a href="http://weblog.bulknews.net/post/118974333634/which-should-i-use-starman-or-starlet">Оригинальная запись в блоге Миягавы</a></p>
+
+<p>По мотивам дискуссии в канале #plack в IRC мы создали эту не официальную документацию призванную рассказать об отличиях в 2х популярных Plack HTTP серверах: <a href="https://github.com/miyagawa/Starman">Starman</a> и <a href="https://github.com/kazuho/Starlet">Starlet</a>.</p>
+
+<p>Кроме похожего названия эти сервера, так же делают одинаковые вещи: они обслуживают HTTP запросы в режиме pre-fork (создают несколько рабочих процессов для обслуживания входящих запросов).</p>
+
+<p>Starman и Starlet отлично подходят для работы за реверс-прокси (например nginx или Apache mod_proxy).</p>
+
+<h2>Starman</h2>
+
+<p>Starman написан мной(Миягавой) на основе отдельного модуля <a href="https://metacpan.org/release/Net-Server">Net::Server</a>. Оригинальный код был утащен из <a href="https://metacpan.org/release/Catalyst-Engine-HTTP-Prefork">HTTP сервера Catalist'а</a> и модифицирован для соответствия спецификации на PSGI сервер.</p>
+
+<p>Из-за использования Net::Server Starman имеет широкий набор возможностей по кастомизации. Например: ротация логов, управление процессами через сигналы, UNIX сокеты, прослушиваение нескольких хостов и прочее.</p>
+
+<p>Свежие релизы так же имеют возможность прямой передачи параметров в Net::Server, что дает еще большую гибкость для бэкендов.</p>
+
+<h2>Starlet</h2>
+
+<p>Starlet написан <a href="https://github.com/kazuho">Kazuho Oku</a> - он известен как автор большого кол-ва ПО, включающего H2O и С-шную версию персера HTTP для Plack.</p>
+
+<p>В отличии от Starman, Starlet использует собственную реализацию управления процессами и поддержки TCP сокетов. Во время написания Starman, я рассматривал Starlet как экспериментальный. Но учитывая репутацию его ПО и кол-во Plack серверов в его экосистеме, я могу сказать что Starlet вполне зрелое решение.</p>
+
+<p>Kazeburo, другой активный контрибьютер Plack и Starlet, <a href="http://kazeburo.hatenablog.com/entry/2013/04/15/173407">у себя в блоге</a> (на японском) показывает что Starlet масштабируется лучше чем Starman при увеличенни числа рабочих процессов. При увеличении числа рабочих процессов выше 8, Starman имеет проблемы. Это поведение улучшает если убрать блокировку accept/serialization, но Starlet все равно выигрывает.</p>
+
+<p>С другой стороны: Starlet не поддерживает UNIX сокеты и прослушивание нескольких хостов/портов.</p>
+
+<p>Обновление без прерывания обслуживания все еще возможно при использовании Server::Starter перед Starlet.</p>
+
+<h2>Выводы</h2>
+
+<p>Starman это самостоятельный HTTP сервер с полным набором возможностей, многие из которых обеспечивает использование Net::Server.</p>
+
+<p>Starlet проще и использует немного меньше памяти, хотя и не поддерживает все возможности которые могут быть вам нужны, а могут быть и не нужны.</p>
+
+<p>Если вы хотите динамически контролировать число процессов, или хотите использовать UNIX сокеты, или хотите использовать фичу из Net::Server - используйте Starman.</p>
+
+<p>Если вы хотите использовать ограниченное по ресурсам окружение, или обслуживать миллионы запросов в секунду и вам важно любое улучшение по производительности и ресурсам - используйте Starlet.</p>
+
+<p>Каждого из них рекомендуется использовать за реверс-прокси вроде nginx. Для обновления без простоев с использованием TCP-сокетов используйте Server::Starter или SO_REUSE_PORT. </p>
+
+
+
+            </article>
+        </main>
+
+        <ul class="pager">
+            <li class="prev">
+                <a class="button disabled"
+                    rel="next" href=""
+                >
+                    &larr; Older
+                </a>
+            </li>
+            <li class="next">
+                <a class="button disabled"
+                    rel="prev" href=""
+                >
+                    Newer &rarr;
+                </a>
+            </li>
+        </ul>
+
+    </div>
+
+    <div class="three columns sidebar">
+        
+        <h1>Tags</h1>
+        <ul class="list-inline">
+            <li><a href="/blog/tag/Plack">Plack</a></li>
+            <li><a href="/blog/tag/Starlet">Starlet</a></li>
+            <li><a href="/blog/tag/Starman">Starman</a></li>
+            <li><a href="/blog/tag/перевод">перевод</a></li>
+        </ul>
+        <h1>Feeds</h1>
+        <ul class="list-inline">
+            <li>
+                <a href="/blog/tag/Starlet.atom" rel="alternate" type="application/atom+xml">
+                    Atom
+                </a>
+            </li>
+            <li>
+                <a href="/blog/tag/Starlet.rss" rel="alternate" type="application/rss+xml">
+                    RSS
+                </a>
+            </li>
+        </ul>
+    </div>
+
+</div>
+
+        </div>
+        <footer>
+            
+            <div class="container tagline">
+                <a href="http://preaction.github.io/Statocles">Made with Statocles</a><br/>
+                <a href="http://www.perl.org">Powered by Perl</a>
+            </div>
+        </footer>
+    </body>
+</html>
