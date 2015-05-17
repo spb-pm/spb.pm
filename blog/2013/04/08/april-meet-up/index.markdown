@@ -1,0 +1,9 @@
+---
+title: 'Встреча spb.pm'
+tags: meetup
+---
+
+В четверг, 11 апреля будет проходить встреча spb.pm.
+Начало в 20:00, время выясняется.
+
+Следите за анонсами в рассылке: [http://mail.pm.org/mailman/listinfo/spb-pm](http://mail.pm.org/mailman/listinfo/spb-pm)
