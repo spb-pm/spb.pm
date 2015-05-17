@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://spb.pm/blog/tag/SaintPerl</id>
+    <title>SPb.pm</title>
+    <updated>2015-05-17T15:33:03Z</updated>
+    <link rel="self" href="http://spb.pm/blog/tag/SaintPerl.atom"/>
+    <link rel="alternate" href="http://spb.pm/blog/tag/SaintPerl"/>
+    <generator version="0.045">Statocles</generator>
+    <entry>
+        <id>http://spb.pm/blog/2013/12/22/saint-perl-5</id>
+        <title>SaintPerl 5</title>
+        <link rel="alternate" href="http://spb.pm/blog/2013/12/22/saint-perl-5" />
+        <content type="html"><![CDATA[
+            <p>21 декабря 2013 года прошел очередной, пятый, воркшоп SaintPerl.</p>
+
+<p>Воркшоп прошел в офисе компании <a href="http://jetbrains.ru">JetBrains</a> при спонсорской поддержке компании <a href="http://reg.ru">Reg.ru</a> 
+и собрал 14 докладчиков и около 50 слушателей.</p>
+
+<p>Perl-хакеры России, Украины и Нидерландов делились своими знаниями с аудиторией:</p>
+
+<p><img src="https://pbs.twimg.com/media/Bb_fy5UIcAAmRu5.jpg" alt="1" /></p>
+
+<p>и в кулуарах кофейного автомата:</p>
+
+<p><img src="https://pbs.twimg.com/media/BcAg8hmIcAAV0Pq.jpg" alt="2" /></p>
+
+<p>Так же на встрече была впервые анонсирована конференция <a href="http://event.yapcrussia.org/yr2014/">YAPC::Russia 2014</a>. 
+Которая, в этом году, пройдет 14 июня в Киеве. </p>
+
+<p>Приятным моментом воркшопа стала экскурсия на крышу офисного здания JetBrains, откуда открываются чудесные виды на Васильевский Остров.</p>
+
+<p><img src="https://pbs.twimg.com/media/BcCN7_MCQAAhDL9.jpg" alt="3" /></p>
+
+<p>Закончилась конференция отличным афтэпати, организованным компанией <a href="http://reg.ru">Reg.ru</a> в пабе Wild Duck.</p>
+
+<p><img src="https://pbs.twimg.com/media/BcB5uyIIgAAuKXd.jpg" alt="4" /></p>
+
+<p>Слайды и видеозаписи воркшопа будут выложены чуть позже, следите за анонсами.</p>
+
+                <p><a href="http://spb.pm/blog/2013/12/22/saint-perl-5#section-2">Continue reading...</a></p>
+            <p>Tags:
+                <a href="/blog/tag/record">record</a>
+                <a href="/blog/tag/SaintPerl">SaintPerl</a>
+            </p>
+        ]]></content>
+        <updated>2013-12-22T00:00:00Z</updated>
+        <category term="record" />
+        <category term="SaintPerl" />
+    </entry>
+</feed>
+

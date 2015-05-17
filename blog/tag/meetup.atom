@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://spb.pm/blog/tag/meetup</id>
+    <title>SPb.pm</title>
+    <updated>2015-05-17T15:33:03Z</updated>
+    <link rel="self" href="http://spb.pm/blog/tag/meetup.atom"/>
+    <link rel="alternate" href="http://spb.pm/blog/tag/meetup"/>
+    <generator version="0.045">Statocles</generator>
+    <entry>
+        <id>http://spb.pm/blog/2013/04/08/april-meet-up</id>
+        <title>Встреча spb.pm</title>
+        <link rel="alternate" href="http://spb.pm/blog/2013/04/08/april-meet-up" />
+        <content type="html"><![CDATA[
+            <p>В четверг, 11 апреля будет проходить встреча spb.pm.
+Начало в 20:00, время выясняется.</p>
+
+<p>Следите за анонсами в рассылке: <a href="http://mail.pm.org/mailman/listinfo/spb-pm">http://mail.pm.org/mailman/listinfo/spb-pm</a></p>
+
+                <p><a href="http://spb.pm/blog/2013/04/08/april-meet-up#section-2">Continue reading...</a></p>
+            <p>Tags:
+                <a href="/blog/tag/meetup">meetup</a>
+            </p>
+        ]]></content>
+        <updated>2013-04-08T00:00:00Z</updated>
+        <category term="meetup" />
+    </entry>
+</feed>
+
