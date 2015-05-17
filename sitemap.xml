@@ -1,40 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>http://spb.pm/blog/tag/перевод</loc>
+        <loc>http://spb.pm/blog/tag/announcement</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.3</priority>
+        <lastmod>2013-02-08</lastmod>
+    </url>
+    <url>
+        <loc>http://spb.pm/blog/tag/Plack</loc>
         <changefreq>daily</changefreq>
         <priority>0.3</priority>
         <lastmod>2015-05-15</lastmod>
     </url>
     <url>
-        <loc>http://spb.pm/blog/tag/record</loc>
-        <changefreq>daily</changefreq>
-        <priority>0.3</priority>
-        <lastmod>2013-12-22</lastmod>
-    </url>
-    <url>
-        <loc>http://spb.pm/blog/2011/11/20/saint-perl-3</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.5</priority>
-        <lastmod>2011-11-20</lastmod>
-    </url>
-    <url>
-        <loc>http://spb.pm</loc>
+        <loc>http://spb.pm/blog/page/2</loc>
         <changefreq>daily</changefreq>
         <priority>0.3</priority>
         <lastmod>2015-05-15</lastmod>
-    </url>
-    <url>
-        <loc>http://spb.pm/blog/tag/meetup</loc>
-        <changefreq>daily</changefreq>
-        <priority>0.3</priority>
-        <lastmod>2013-04-08</lastmod>
-    </url>
-    <url>
-        <loc>http://spb.pm/blog/2013/04/08/april-meet-up</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.5</priority>
-        <lastmod>2013-04-08</lastmod>
     </url>
     <url>
         <loc>http://spb.pm/blog/tag/SaintPerl</loc>
@@ -43,7 +25,49 @@
         <lastmod>2013-12-22</lastmod>
     </url>
     <url>
+        <loc>http://spb.pm/blog/tag/meetup</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.3</priority>
+        <lastmod>2013-04-08</lastmod>
+    </url>
+    <url>
+        <loc>http://spb.pm/blog/2012/11/20/saint-perl-4</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        <lastmod>2012-11-20</lastmod>
+    </url>
+    <url>
+        <loc>http://spb.pm/blog/tag/record</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.3</priority>
+        <lastmod>2013-12-22</lastmod>
+    </url>
+    <url>
+        <loc>http://spb.pm/blog/2013/04/08/april-meet-up</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        <lastmod>2013-04-08</lastmod>
+    </url>
+    <url>
+        <loc>http://spb.pm/blog/2013/02/08/yapc-europe-2013</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        <lastmod>2013-02-08</lastmod>
+    </url>
+    <url>
         <loc>http://spb.pm/blog/tag/Starman</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.3</priority>
+        <lastmod>2015-05-15</lastmod>
+    </url>
+    <url>
+        <loc>http://spb.pm</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.3</priority>
+        <lastmod>2015-05-15</lastmod>
+    </url>
+    <url>
+        <loc>http://spb.pm/blog/tag/перевод</loc>
         <changefreq>daily</changefreq>
         <priority>0.3</priority>
         <lastmod>2015-05-15</lastmod>
@@ -55,34 +79,10 @@
         <lastmod>2008-03-03</lastmod>
     </url>
     <url>
-        <loc>http://spb.pm/blog/tag/announcement</loc>
-        <changefreq>daily</changefreq>
-        <priority>0.3</priority>
-        <lastmod>2013-02-08</lastmod>
-    </url>
-    <url>
-        <loc>http://spb.pm/blog/page/2</loc>
+        <loc>http://spb.pm/blog/tag/Starlet</loc>
         <changefreq>daily</changefreq>
         <priority>0.3</priority>
         <lastmod>2015-05-15</lastmod>
-    </url>
-    <url>
-        <loc>http://spb.pm/blog/2012/11/20/saint-perl-4</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.5</priority>
-        <lastmod>2012-11-20</lastmod>
-    </url>
-    <url>
-        <loc>http://spb.pm/blog/2013/02/08/yapc-europe-2013</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.5</priority>
-        <lastmod>2013-02-08</lastmod>
-    </url>
-    <url>
-        <loc>http://spb.pm/blog/tag/news</loc>
-        <changefreq>daily</changefreq>
-        <priority>0.3</priority>
-        <lastmod>2013-02-08</lastmod>
     </url>
     <url>
         <loc>http://spb.pm/blog/2013/12/22/saint-perl-5</loc>
@@ -91,22 +91,22 @@
         <lastmod>2013-12-22</lastmod>
     </url>
     <url>
-        <loc>http://spb.pm/blog/tag/Starlet</loc>
-        <changefreq>daily</changefreq>
-        <priority>0.3</priority>
-        <lastmod>2015-05-15</lastmod>
-    </url>
-    <url>
         <loc>http://spb.pm/blog/2015/05/15/which-should-i-use-starman-and-starlet-</loc>
         <changefreq>weekly</changefreq>
         <priority>0.5</priority>
         <lastmod>2015-05-15</lastmod>
     </url>
     <url>
-        <loc>http://spb.pm/blog/tag/Plack</loc>
+        <loc>http://spb.pm/blog/tag/news</loc>
         <changefreq>daily</changefreq>
         <priority>0.3</priority>
-        <lastmod>2015-05-15</lastmod>
+        <lastmod>2013-02-08</lastmod>
+    </url>
+    <url>
+        <loc>http://spb.pm/blog/2011/11/20/saint-perl-3</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        <lastmod>2011-11-20</lastmod>
     </url>
 </urlset>
 
