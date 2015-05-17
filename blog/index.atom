@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://spb.pm</id>
     <title>SPb.pm</title>
-    <updated>2015-05-17T15:45:53Z</updated>
+    <updated>2015-05-17T15:47:07Z</updated>
     <link rel="self" href="http://spb.pm/blog/index.atom"/>
     <link rel="alternate" href="http://spb.pm"/>
     <generator version="0.045">Statocles</generator>
@@ -166,7 +166,7 @@
 
 <p>Приходите послушать интересные доклады, поделиться собственными знаниями и пообщаться с единомышленниками. Тем более, что 18.12.2012 Perl отметит свой 25й день рождения. И это дополнительный прекрасный повод собраться вместе!</p>
 
-<p>Зарегистироваться для участия в конференции и подать заявку на выступление можно на сайте: <a href="event.yapcrussia.org/saintperl4/">event.yapcrussia.org/saintperl4/</a>
+<p>Зарегистироваться для участия в конференции и подать заявку на выступление можно на сайте: <a href="http://event.yapcrussia.org/saintperl4/">event.yapcrussia.org/saintperl4/</a>
 До встречи!</p>
 
                 <p><a href="http://spb.pm/blog/2012/11/20/saint-perl-4#section-2">Continue reading...</a></p>
