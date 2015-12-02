@@ -1,0 +1,13 @@
+use Rex -feature => ['1.0'];
+
+user "user";
+private_key "~/.ssh/id_rsa";
+public_key "~/.ssh/id_rsa.pub";
+key_auth;
+
+group myservers => "spb.pm";
+
+desc "Deploy the site";
+task "deploy", group => "myservers", sub {
+   run "cd /srv/www/spb.pm && git pull origin gh-pages";
+};
