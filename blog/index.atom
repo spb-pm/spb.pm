@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://spb.pm</id>
-    <title>SPb.pm</title>
-    <updated>2015-05-17T18:10:53Z</updated>
-    <link rel="self" href="http://spb.pm/blog/index.atom"/>
-    <link rel="alternate" href="http://spb.pm"/>
-    <generator version="0.045">Statocles</generator>
+    <id>http://spb.pm/blog/</id>
+    <title>SPb PM Group</title>
+    <updated>2015-12-02T23:27:42Z</updated>
+    <link href="http://spb.pm/blog/index.atom" rel="self" />
+    <link href="http://spb.pm/blog/" rel="alternate" />
+    <generator version="0.055">Statocles</generator>
     <entry>
-        <id>http://spb.pm/blog/2015/05/15/which-should-i-use-starman-and-starlet-</id>
+        <id>http://spb.pm/blog/2015/05/15/which-should-i-use-starman-and-starlet-/</id>
         <title>Что мне следует использовать: Starman или Starlet?</title>
-        <link rel="alternate" href="http://spb.pm/blog/2015/05/15/which-should-i-use-starman-and-starlet-" />
+        <link href="http://spb.pm/blog/2015/05/15/which-should-i-use-starman-and-starlet-/" rel="alternate" />
         <content type="html"><![CDATA[
             <p><a href="http://weblog.bulknews.net/post/118974333634/which-should-i-use-starman-or-starlet">Оригинальная запись в блоге Миягавы</a></p>
 
@@ -21,7 +21,7 @@
 
 <h2>Starman</h2>
 
-<p>Starman написан мной(Миягавой) на основе отдельного модуля <a href="https://metacpan.org/release/Net-Server">Net::Server</a>. Оригинальный код был утащен из <a href="https://metacpan.org/release/Catalyst-Engine-HTTP-Prefork">HTTP сервера Catalist'а</a> и модифицирован для соответствия спецификации на PSGI сервер.</p>
+<p>Starman написан мной(Миягавой) на основе отдельного модуля <a href="https://metacpan.org/release/Net-Server">Net::Server</a>. Оригинальный код был утащен из <a href="https://metacpan.org/release/Catalyst-Engine-HTTP-Prefork">HTTP сервера Catalist&#39;а</a> и модифицирован для соответствия спецификации на PSGI сервер.</p>
 
 <p>Из-за использования Net::Server Starman имеет широкий набор возможностей по кастомизации. Например: ротация логов, управление процессами через сигналы, UNIX сокеты, прослушиваение нескольких хостов и прочее.</p>
 
@@ -51,12 +51,12 @@
 
 <p>Каждого из них рекомендуется использовать за реверс-прокси вроде nginx. Для обновления без простоев с использованием TCP-сокетов используйте Server::Starter или SO_REUSE_PORT. </p>
 
-                <p><a href="http://spb.pm/blog/2015/05/15/which-should-i-use-starman-and-starlet-#section-2">Continue reading...</a></p>
+                <p><a href="http://spb.pm/blog/2015/05/15/which-should-i-use-starman-and-starlet-/#section-2">Continue reading...</a></p>
             <p>Tags:
-                <a href="/blog/tag/перевод">перевод</a>
-                <a href="/blog/tag/Starman">Starman</a>
-                <a href="/blog/tag/Starlet">Starlet</a>
-                <a href="/blog/tag/Plack">Plack</a>
+                <a href="http://spb.pm/blog/tag/перевод/">перевод</a>
+                <a href="http://spb.pm/blog/tag/Starman/">Starman</a>
+                <a href="http://spb.pm/blog/tag/Starlet/">Starlet</a>
+                <a href="http://spb.pm/blog/tag/Plack/">Plack</a>
             </p>
         ]]></content>
         <updated>2015-05-15T00:00:00Z</updated>
@@ -66,9 +66,9 @@
         <category term="Plack" />
     </entry>
     <entry>
-        <id>http://spb.pm/blog/2013/12/22/saint-perl-5</id>
+        <id>http://spb.pm/blog/2013/12/22/saint-perl-5/</id>
         <title>SaintPerl 5</title>
-        <link rel="alternate" href="http://spb.pm/blog/2013/12/22/saint-perl-5" />
+        <link href="http://spb.pm/blog/2013/12/22/saint-perl-5/" rel="alternate" />
         <content type="html"><![CDATA[
             <p>21 декабря 2013 года прошел очередной, пятый, воркшоп SaintPerl.</p>
 
@@ -77,29 +77,29 @@
 
 <p>Perl-хакеры России, Украины и Нидерландов делились своими знаниями с аудиторией:</p>
 
-<p><img src="https://pbs.twimg.com/media/Bb_fy5UIcAAmRu5.jpg" alt="1" /></p>
+<p><img alt="1" src="https://pbs.twimg.com/media/Bb_fy5UIcAAmRu5.jpg"></p>
 
 <p>и в кулуарах кофейного автомата:</p>
 
-<p><img src="https://pbs.twimg.com/media/BcAg8hmIcAAV0Pq.jpg" alt="2" /></p>
+<p><img alt="2" src="https://pbs.twimg.com/media/BcAg8hmIcAAV0Pq.jpg"></p>
 
 <p>Так же на встрече была впервые анонсирована конференция <a href="http://event.yapcrussia.org/yr2014/">YAPC::Russia 2014</a>. 
 Которая, в этом году, пройдет 14 июня в Киеве. </p>
 
 <p>Приятным моментом воркшопа стала экскурсия на крышу офисного здания JetBrains, откуда открываются чудесные виды на Васильевский Остров.</p>
 
-<p><img src="https://pbs.twimg.com/media/BcCN7_MCQAAhDL9.jpg" alt="3" /></p>
+<p><img alt="3" src="https://pbs.twimg.com/media/BcCN7_MCQAAhDL9.jpg"></p>
 
 <p>Закончилась конференция отличным афтэпати, организованным компанией <a href="http://reg.ru">Reg.ru</a> в пабе Wild Duck.</p>
 
-<p><img src="https://pbs.twimg.com/media/BcB5uyIIgAAuKXd.jpg" alt="4" /></p>
+<p><img alt="4" src="https://pbs.twimg.com/media/BcB5uyIIgAAuKXd.jpg"></p>
 
 <p>Слайды и видеозаписи воркшопа будут выложены чуть позже, следите за анонсами.</p>
 
-                <p><a href="http://spb.pm/blog/2013/12/22/saint-perl-5#section-2">Continue reading...</a></p>
+                <p><a href="http://spb.pm/blog/2013/12/22/saint-perl-5/#section-2">Continue reading...</a></p>
             <p>Tags:
-                <a href="/blog/tag/record">record</a>
-                <a href="/blog/tag/SaintPerl">SaintPerl</a>
+                <a href="http://spb.pm/blog/tag/record/">record</a>
+                <a href="http://spb.pm/blog/tag/SaintPerl/">SaintPerl</a>
             </p>
         ]]></content>
         <updated>2013-12-22T00:00:00Z</updated>
@@ -107,27 +107,27 @@
         <category term="SaintPerl" />
     </entry>
     <entry>
-        <id>http://spb.pm/blog/2013/04/08/april-meet-up</id>
+        <id>http://spb.pm/blog/2013/04/08/april-meet-up/</id>
         <title>Встреча spb.pm</title>
-        <link rel="alternate" href="http://spb.pm/blog/2013/04/08/april-meet-up" />
+        <link href="http://spb.pm/blog/2013/04/08/april-meet-up/" rel="alternate" />
         <content type="html"><![CDATA[
             <p>В четверг, 11 апреля будет проходить встреча spb.pm.
 Начало в 20:00, время выясняется.</p>
 
 <p>Следите за анонсами в рассылке: <a href="http://mail.pm.org/mailman/listinfo/spb-pm">http://mail.pm.org/mailman/listinfo/spb-pm</a></p>
 
-                <p><a href="http://spb.pm/blog/2013/04/08/april-meet-up#section-2">Continue reading...</a></p>
+                <p><a href="http://spb.pm/blog/2013/04/08/april-meet-up/#section-2">Continue reading...</a></p>
             <p>Tags:
-                <a href="/blog/tag/meetup">meetup</a>
+                <a href="http://spb.pm/blog/tag/meetup/">meetup</a>
             </p>
         ]]></content>
         <updated>2013-04-08T00:00:00Z</updated>
         <category term="meetup" />
     </entry>
     <entry>
-        <id>http://spb.pm/blog/2013/02/08/yapc-europe-2013</id>
+        <id>http://spb.pm/blog/2013/02/08/yapc-europe-2013/</id>
         <title>YAPC::Europe 2013</title>
-        <link rel="alternate" href="http://spb.pm/blog/2013/02/08/yapc-europe-2013" />
+        <link href="http://spb.pm/blog/2013/02/08/yapc-europe-2013/" rel="alternate" />
         <content type="html"><![CDATA[
             <p>Мероприятия серии YAPC (Yet Another Perl Conferences) проводятся с 1999 года и сейчас включают несколько подвидов: YAPC::NA (Северная Америка), YAPC::Asia, YAPC::Brasil, YAPC::Russia и YAPC::Europe. Несмотря на первоначальное географическое деление, на любой из конференций можно встретить участников со всего света.</p>
 
@@ -143,10 +143,10 @@
 
 <p>Стоимость: 60, 90, 110 евро</p>
 
-                <p><a href="http://spb.pm/blog/2013/02/08/yapc-europe-2013#section-2">Continue reading...</a></p>
+                <p><a href="http://spb.pm/blog/2013/02/08/yapc-europe-2013/#section-2">Continue reading...</a></p>
             <p>Tags:
-                <a href="/blog/tag/announcement">announcement</a>
-                <a href="/blog/tag/news">news</a>
+                <a href="http://spb.pm/blog/tag/announcement/">announcement</a>
+                <a href="http://spb.pm/blog/tag/news/">news</a>
             </p>
         ]]></content>
         <updated>2013-02-08T00:00:00Z</updated>
@@ -154,9 +154,9 @@
         <category term="news" />
     </entry>
     <entry>
-        <id>http://spb.pm/blog/2012/11/20/saint-perl-4</id>
+        <id>http://spb.pm/blog/2012/11/20/saint-perl-4/</id>
         <title>Saint Perl 4</title>
-        <link rel="alternate" href="http://spb.pm/blog/2012/11/20/saint-perl-4" />
+        <link href="http://spb.pm/blog/2012/11/20/saint-perl-4/" rel="alternate" />
         <content type="html"><![CDATA[
             <p>22 декабря в <a href="http://company.yandex.ru/contacts/spb/">офисе</a> компании Яндекс в Санкт-Петербурге состоится конференция для любителей и пользователей языка Perl — «Saint Perl 4». </p>
 
@@ -169,9 +169,9 @@
 <p>Зарегистироваться для участия в конференции и подать заявку на выступление можно на сайте: <a href="http://event.yapcrussia.org/saintperl4/">event.yapcrussia.org/saintperl4/</a>
 До встречи!</p>
 
-                <p><a href="http://spb.pm/blog/2012/11/20/saint-perl-4#section-2">Continue reading...</a></p>
+                <p><a href="http://spb.pm/blog/2012/11/20/saint-perl-4/#section-2">Continue reading...</a></p>
             <p>Tags:
-                <a href="/blog/tag/announcement">announcement</a>
+                <a href="http://spb.pm/blog/tag/announcement/">announcement</a>
             </p>
         ]]></content>
         <updated>2012-11-20T00:00:00Z</updated>

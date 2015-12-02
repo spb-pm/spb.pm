@@ -1,24 +1,24 @@
 <?xml version="1.0"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>SPb.pm</title>
-        <link>http://spb.pm/blog/tag/meetup</link>
+        <title>SPb PM Group</title>
+        <link>http://spb.pm/blog/tag/meetup/</link>
         <atom:link href="http://spb.pm/blog/tag/meetup.rss" rel="self" type="application/rss+xml" />
-        <description>Blog feed of SPb.pm</description>
-        <generator>Statocles 0.045</generator>
+        <description>Blog feed of SPb PM Group</description>
+        <generator>Statocles 0.055</generator>
         <item>
             <title>Встреча spb.pm</title>
-            <link>http://spb.pm/blog/2013/04/08/april-meet-up</link>
-            <guid>http://spb.pm/blog/2013/04/08/april-meet-up</guid>
+            <link>http://spb.pm/blog/2013/04/08/april-meet-up/</link>
+            <guid>http://spb.pm/blog/2013/04/08/april-meet-up/</guid>
             <description><![CDATA[
                 <p>В четверг, 11 апреля будет проходить встреча spb.pm.
 Начало в 20:00, время выясняется.</p>
 
 <p>Следите за анонсами в рассылке: <a href="http://mail.pm.org/mailman/listinfo/spb-pm">http://mail.pm.org/mailman/listinfo/spb-pm</a></p>
 
-                    <p><a href="http://spb.pm/blog/2013/04/08/april-meet-up#section-2">Continue reading...</a></p>
+                    <p><a href="http://spb.pm/blog/2013/04/08/april-meet-up/#section-2">Continue reading...</a></p>
                 <p>Tags:
-                    <a href="/blog/tag/meetup">meetup</a>
+                    <a href="http://spb.pm/blog/tag/meetup/">meetup</a>
                 </p>
             ]]></description>
             <pubDate>

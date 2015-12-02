@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>SPb.pm</title>
-        <link>http://spb.pm/blog/tag/SaintPerl</link>
+        <title>SPb PM Group</title>
+        <link>http://spb.pm/blog/tag/SaintPerl/</link>
         <atom:link href="http://spb.pm/blog/tag/SaintPerl.rss" rel="self" type="application/rss+xml" />
-        <description>Blog feed of SPb.pm</description>
-        <generator>Statocles 0.045</generator>
+        <description>Blog feed of SPb PM Group</description>
+        <generator>Statocles 0.055</generator>
         <item>
             <title>SaintPerl 5</title>
-            <link>http://spb.pm/blog/2013/12/22/saint-perl-5</link>
-            <guid>http://spb.pm/blog/2013/12/22/saint-perl-5</guid>
+            <link>http://spb.pm/blog/2013/12/22/saint-perl-5/</link>
+            <guid>http://spb.pm/blog/2013/12/22/saint-perl-5/</guid>
             <description><![CDATA[
                 <p>21 декабря 2013 года прошел очередной, пятый, воркшоп SaintPerl.</p>
 
@@ -18,29 +18,29 @@
 
 <p>Perl-хакеры России, Украины и Нидерландов делились своими знаниями с аудиторией:</p>
 
-<p><img src="https://pbs.twimg.com/media/Bb_fy5UIcAAmRu5.jpg" alt="1" /></p>
+<p><img alt="1" src="https://pbs.twimg.com/media/Bb_fy5UIcAAmRu5.jpg"></p>
 
 <p>и в кулуарах кофейного автомата:</p>
 
-<p><img src="https://pbs.twimg.com/media/BcAg8hmIcAAV0Pq.jpg" alt="2" /></p>
+<p><img alt="2" src="https://pbs.twimg.com/media/BcAg8hmIcAAV0Pq.jpg"></p>
 
 <p>Так же на встрече была впервые анонсирована конференция <a href="http://event.yapcrussia.org/yr2014/">YAPC::Russia 2014</a>. 
 Которая, в этом году, пройдет 14 июня в Киеве. </p>
 
 <p>Приятным моментом воркшопа стала экскурсия на крышу офисного здания JetBrains, откуда открываются чудесные виды на Васильевский Остров.</p>
 
-<p><img src="https://pbs.twimg.com/media/BcCN7_MCQAAhDL9.jpg" alt="3" /></p>
+<p><img alt="3" src="https://pbs.twimg.com/media/BcCN7_MCQAAhDL9.jpg"></p>
 
 <p>Закончилась конференция отличным афтэпати, организованным компанией <a href="http://reg.ru">Reg.ru</a> в пабе Wild Duck.</p>
 
-<p><img src="https://pbs.twimg.com/media/BcB5uyIIgAAuKXd.jpg" alt="4" /></p>
+<p><img alt="4" src="https://pbs.twimg.com/media/BcB5uyIIgAAuKXd.jpg"></p>
 
 <p>Слайды и видеозаписи воркшопа будут выложены чуть позже, следите за анонсами.</p>
 
-                    <p><a href="http://spb.pm/blog/2013/12/22/saint-perl-5#section-2">Continue reading...</a></p>
+                    <p><a href="http://spb.pm/blog/2013/12/22/saint-perl-5/#section-2">Continue reading...</a></p>
                 <p>Tags:
-                    <a href="/blog/tag/record">record</a>
-                    <a href="/blog/tag/SaintPerl">SaintPerl</a>
+                    <a href="http://spb.pm/blog/tag/record/">record</a>
+                    <a href="http://spb.pm/blog/tag/SaintPerl/">SaintPerl</a>
                 </p>
             ]]></description>
             <pubDate>

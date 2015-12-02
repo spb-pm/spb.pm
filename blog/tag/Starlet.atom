@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://spb.pm/blog/tag/Starlet</id>
-    <title>SPb.pm</title>
-    <updated>2015-05-17T18:10:53Z</updated>
-    <link rel="self" href="http://spb.pm/blog/tag/Starlet.atom"/>
-    <link rel="alternate" href="http://spb.pm/blog/tag/Starlet"/>
-    <generator version="0.045">Statocles</generator>
+    <id>http://spb.pm/blog/tag/Starlet/</id>
+    <title>SPb PM Group</title>
+    <updated>2015-12-02T23:27:41Z</updated>
+    <link href="http://spb.pm/blog/tag/Starlet.atom" rel="self" />
+    <link href="http://spb.pm/blog/tag/Starlet/" rel="alternate" />
+    <generator version="0.055">Statocles</generator>
     <entry>
-        <id>http://spb.pm/blog/2015/05/15/which-should-i-use-starman-and-starlet-</id>
+        <id>http://spb.pm/blog/2015/05/15/which-should-i-use-starman-and-starlet-/</id>
         <title>Что мне следует использовать: Starman или Starlet?</title>
-        <link rel="alternate" href="http://spb.pm/blog/2015/05/15/which-should-i-use-starman-and-starlet-" />
+        <link href="http://spb.pm/blog/2015/05/15/which-should-i-use-starman-and-starlet-/" rel="alternate" />
         <content type="html"><![CDATA[
             <p><a href="http://weblog.bulknews.net/post/118974333634/which-should-i-use-starman-or-starlet">Оригинальная запись в блоге Миягавы</a></p>
 
@@ -21,7 +21,7 @@
 
 <h2>Starman</h2>
 
-<p>Starman написан мной(Миягавой) на основе отдельного модуля <a href="https://metacpan.org/release/Net-Server">Net::Server</a>. Оригинальный код был утащен из <a href="https://metacpan.org/release/Catalyst-Engine-HTTP-Prefork">HTTP сервера Catalist'а</a> и модифицирован для соответствия спецификации на PSGI сервер.</p>
+<p>Starman написан мной(Миягавой) на основе отдельного модуля <a href="https://metacpan.org/release/Net-Server">Net::Server</a>. Оригинальный код был утащен из <a href="https://metacpan.org/release/Catalyst-Engine-HTTP-Prefork">HTTP сервера Catalist&#39;а</a> и модифицирован для соответствия спецификации на PSGI сервер.</p>
 
 <p>Из-за использования Net::Server Starman имеет широкий набор возможностей по кастомизации. Например: ротация логов, управление процессами через сигналы, UNIX сокеты, прослушиваение нескольких хостов и прочее.</p>
 
@@ -51,12 +51,12 @@
 
 <p>Каждого из них рекомендуется использовать за реверс-прокси вроде nginx. Для обновления без простоев с использованием TCP-сокетов используйте Server::Starter или SO_REUSE_PORT. </p>
 
-                <p><a href="http://spb.pm/blog/2015/05/15/which-should-i-use-starman-and-starlet-#section-2">Continue reading...</a></p>
+                <p><a href="http://spb.pm/blog/2015/05/15/which-should-i-use-starman-and-starlet-/#section-2">Continue reading...</a></p>
             <p>Tags:
-                <a href="/blog/tag/перевод">перевод</a>
-                <a href="/blog/tag/Starman">Starman</a>
-                <a href="/blog/tag/Starlet">Starlet</a>
-                <a href="/blog/tag/Plack">Plack</a>
+                <a href="http://spb.pm/blog/tag/перевод/">перевод</a>
+                <a href="http://spb.pm/blog/tag/Starman/">Starman</a>
+                <a href="http://spb.pm/blog/tag/Starlet/">Starlet</a>
+                <a href="http://spb.pm/blog/tag/Plack/">Plack</a>
             </p>
         ]]></content>
         <updated>2015-05-15T00:00:00Z</updated>
