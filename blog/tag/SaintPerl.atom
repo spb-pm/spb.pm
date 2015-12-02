@@ -2,10 +2,33 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://spb.pm/blog/tag/SaintPerl/</id>
     <title>SPb PM Group</title>
-    <updated>2015-12-02T23:27:41Z</updated>
+    <updated>2015-12-02T23:36:26Z</updated>
     <link href="http://spb.pm/blog/tag/SaintPerl.atom" rel="self" />
     <link href="http://spb.pm/blog/tag/SaintPerl/" rel="alternate" />
     <generator version="0.055">Statocles</generator>
+    <entry>
+        <id>http://spb.pm/blog/2015/12/02/saintperl7/</id>
+        <title>SaintPerl7</title>
+        <link href="http://spb.pm/blog/2015/12/02/saintperl7/" rel="alternate" />
+        <content type="html"><![CDATA[
+            <p>Мы долго думали и всё-таки решили снова провести наш уютный воркшоп!</p>
+
+<p>По традиции -- на новой площадке. По традиции -- практически день в день с днём рождения Perl.</p>
+
+<h3>19 декабря, Санкт-Петербург, Saint Perl 7!</h3>
+
+<p>Ждём ваших докладов!</p>
+
+<p><a href="http://event.yapcrussia.org/saintperl7/">http://event.yapcrussia.org/saintperl7/</a></p>
+
+                <p><a href="http://spb.pm/blog/2015/12/02/saintperl7/#section-2">Continue reading...</a></p>
+            <p>Tags:
+                <a href="http://spb.pm/blog/tag/SaintPerl/">SaintPerl</a>
+            </p>
+        ]]></content>
+        <updated>2015-12-02T00:00:00Z</updated>
+        <category term="SaintPerl" />
+    </entry>
     <entry>
         <id>http://spb.pm/blog/2013/12/22/saint-perl-5/</id>
         <title>SaintPerl 5</title>

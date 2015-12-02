@@ -2,10 +2,33 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://spb.pm/blog/</id>
     <title>SPb PM Group</title>
-    <updated>2015-12-02T23:27:42Z</updated>
+    <updated>2015-12-02T23:36:26Z</updated>
     <link href="http://spb.pm/blog/index.atom" rel="self" />
     <link href="http://spb.pm/blog/" rel="alternate" />
     <generator version="0.055">Statocles</generator>
+    <entry>
+        <id>http://spb.pm/blog/2015/12/02/saintperl7/</id>
+        <title>SaintPerl7</title>
+        <link href="http://spb.pm/blog/2015/12/02/saintperl7/" rel="alternate" />
+        <content type="html"><![CDATA[
+            <p>Мы долго думали и всё-таки решили снова провести наш уютный воркшоп!</p>
+
+<p>По традиции -- на новой площадке. По традиции -- практически день в день с днём рождения Perl.</p>
+
+<h3>19 декабря, Санкт-Петербург, Saint Perl 7!</h3>
+
+<p>Ждём ваших докладов!</p>
+
+<p><a href="http://event.yapcrussia.org/saintperl7/">http://event.yapcrussia.org/saintperl7/</a></p>
+
+                <p><a href="http://spb.pm/blog/2015/12/02/saintperl7/#section-2">Continue reading...</a></p>
+            <p>Tags:
+                <a href="http://spb.pm/blog/tag/SaintPerl/">SaintPerl</a>
+            </p>
+        ]]></content>
+        <updated>2015-12-02T00:00:00Z</updated>
+        <category term="SaintPerl" />
+    </entry>
     <entry>
         <id>http://spb.pm/blog/2015/05/15/which-should-i-use-starman-and-starlet-/</id>
         <title>Что мне следует использовать: Starman или Starlet?</title>
@@ -152,30 +175,6 @@
         <updated>2013-02-08T00:00:00Z</updated>
         <category term="announcement" />
         <category term="news" />
-    </entry>
-    <entry>
-        <id>http://spb.pm/blog/2012/11/20/saint-perl-4/</id>
-        <title>Saint Perl 4</title>
-        <link href="http://spb.pm/blog/2012/11/20/saint-perl-4/" rel="alternate" />
-        <content type="html"><![CDATA[
-            <p>22 декабря в <a href="http://company.yandex.ru/contacts/spb/">офисе</a> компании Яндекс в Санкт-Петербурге состоится конференция для любителей и пользователей языка Perl — «Saint Perl 4». </p>
-
-<p>В этом году мероприятие проводится в 4й раз, и уже стало важным ежегодным событием и площадкой для обмена опытом знатоков языка. </p>
-
-<p>В программе конференции доклады на различную тематику от участников Perl community. В числе прочих, с докладом выступит видный участник Perl community, один из лидеров <a href="http://kiev.pm.org">Kiev.pm</a>  Вячеслав (vti) Тихановский <a href="http://showmetheco.de">http://showmetheco.de</a></p>
-
-<p>Приходите послушать интересные доклады, поделиться собственными знаниями и пообщаться с единомышленниками. Тем более, что 18.12.2012 Perl отметит свой 25й день рождения. И это дополнительный прекрасный повод собраться вместе!</p>
-
-<p>Зарегистироваться для участия в конференции и подать заявку на выступление можно на сайте: <a href="http://event.yapcrussia.org/saintperl4/">event.yapcrussia.org/saintperl4/</a>
-До встречи!</p>
-
-                <p><a href="http://spb.pm/blog/2012/11/20/saint-perl-4/#section-2">Continue reading...</a></p>
-            <p>Tags:
-                <a href="http://spb.pm/blog/tag/announcement/">announcement</a>
-            </p>
-        ]]></content>
-        <updated>2012-11-20T00:00:00Z</updated>
-        <category term="announcement" />
     </entry>
 </feed>
 
